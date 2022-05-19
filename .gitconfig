@@ -1,0 +1,15 @@
+[include]
+	#path = .git-include/core.sh
+	path = .git-include/aliases/shorts.sh
+	path = .git-include/aliases/utility.sh
+	path = .git-include/aliases/complex.sh
+[core]
+	commentChar = ";"
+	hooksPath   = .git-include/hooks/
+[commit]
+	template = .git-include/commit.txt
+[submodule]
+	recurse = true
+[advice]
+	statusHints = false
+[alias] # add/override with your aliases here
